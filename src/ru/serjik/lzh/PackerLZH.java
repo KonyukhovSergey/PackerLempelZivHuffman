@@ -623,7 +623,9 @@ public class PackerLZH
 			startHuff();
 
 			for (i = 0; i < N - F; i++)
+            {
 				buffer[i] = ' ';
+            }
 
 			r = N - F;
 			for (count = 0; count < textsize;)
